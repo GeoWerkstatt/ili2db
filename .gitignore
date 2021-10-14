@@ -11,3 +11,7 @@ support/
 /ili2fgdb/src/ch/ehi/ili2fgdb/jdbc/parser/SqlLexer.smap
 /ili2fgdb/src/ch/ehi/ili2fgdb/jdbc/parser/SqlSyntax.smap
 /.gradle/
+gradlew
+gradlew.bat
+gradle/wrapper/
+user.properties
