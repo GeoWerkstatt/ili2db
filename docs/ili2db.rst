@@ -1183,6 +1183,11 @@ Geometrieattribute (allgemein)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 TODO
+Nicht unterstützt sind BAG- oder LIST OF-Konstrukte mit Geometrien als primitive Typen:
+`CLASS ClassA =
+       Geometrie: BAG {1..*} OF GeometryCHLV95_V2.Surface;
+END ClassA;`
+
 
 SURFACE/AREA/ITF/XTF
 ~~~~~~~~~~~~~~~~~~~~
